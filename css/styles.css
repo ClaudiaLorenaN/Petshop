@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+
+*{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+    background-size: cover;
+    height: 409px;
+}
+.header-container-top{
+    background-color: #222222;
+    color: #f3f3f3;
+    font-weight: 400;
+}
+
+.header-lista{
+    list-style: none;
+}
+
+.header-container-bottom {
+    background-color: #f0a83e;
+}
+
+.logo-base {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    color: #ffffff;
+}
+
+.logo-first {
+    color: #3c2313;
+}
+
+.nav-links {
+    list-style: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+/*styles claudia*/
+section{
+    display: block;
+}
+
+.container-image-footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-image-footer > p{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.88px;
+    color: #3C2313;
+    text-align: center;
+}
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35.16px;
+}
+h3{
+    font-weight: 500;
+    font-size: 15;
+    line-height: 17.58px;
+    color: #3C2313;
+}
+
+
+button{
+    text-transform: uppercase;
+    background-color: #F0A83E;
+    width: 141px;
+    height: 49px;
+    /*margin-top: 334px;
+    margin-left: 767px;*/
+    border-radius: 5px;
+    align-self: center;
+}
+
+.list-body > li{
+    align-self:  center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.58px;
+
+    display: inline;
+    padding-right: 20px;
+
+}
+
+.container-products{
+    color: #F0A83E ;
+}
+
+.contact{
+    border-radius: 15px;
+    background-color: #3C2313;
+    color: #FFFFFF;
+}
+
+.button-reset{
+    border-radius: 15px;
+    background-color: #8A8787;
+
+}
+
+.button-send{
+    border-radius: 15px;
+
+}
+
+footer{
+    background-color: #3C2313;
+}
+
+.logo-footer{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    color: #F0A83E;
+
+}
+
+.logo-second {
+    color: #ffffff;
+}
+
+footer > h4{
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+  
+
