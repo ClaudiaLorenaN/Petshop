@@ -10,39 +10,45 @@
   <body>
     <header>
       <section class="header-container-top">
-        <p>Grandes ofertas en comederos</p>
-        <ul class="header-lista">
-          <li>Español</li>
-          <li>&COP</li>
-        </ul>
+        <div><p>Grandes ofertas en comederos</p></div>
+        <div>
+          <ul class="header-lista">
+            <li>Español</li>
+            <li>COP</li>
+          </ul>
+        </div>
       </section>
       <section class="header-container-bottom">
-        <p class="logo-base">
-          <img src="img/Cat.png" alt="gato" />
-          <span class="logo-first">Front</span>
-          Cat&Dog
-          <img src="img/Dog.png" alt="perro" />
-        </p>
-        <nav class="nav-links">
-          <ul>
-            <li>
-              <img src="img/pawprint 1.png" alt="huella" />
-              <span>Categorías</span>
-            </li>
-            <li>
-              <img src="img/pawprint 1.png" alt="huella" />
-              <span>Pets</span>
-            </li>
-            <li>
-              <img src="img/pawprint 1.png" alt="huella" />
-              <span>Nosotros</span>
-            </li>
-            <li>
-              <img src="img/pawprint 1.png" alt="huella" />
-              <span>Contactanos</span>
-            </li>
-          </ul>
-        </nav>
+        <div class="first-logo">
+          <p class="logo-base">
+            <img src="img/Cat.png" alt="gato" />
+            <span class="logo-first">Front</span>
+            Cat&Dog
+            <img src="img/Dog.png" alt="perro" />
+          </p>
+        </div>
+        <div class="nav">
+          <nav class="nav-links">
+            <ul>
+              <li>
+                <img src="img/pawprint 1.png" alt="huella" />
+                <span>Categorías</span>
+              </li>
+              <li>
+                <img src="img/pawprint 1.png" alt="huella" />
+                <span>Pets</span>
+              </li>
+              <li>
+                <img src="img/pawprint 1.png" alt="huella" />
+                <span>Nosotros</span>
+              </li>
+              <li>
+                <img src="img/pawprint 1.png" alt="huella" />
+                <span>Contactanos</span>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </section>
       <section class="container-image-footer">
         <h2>¡Es un placer tenerte aquí!</h2>
@@ -52,29 +58,34 @@
     </header>
     <main>
       <section>
-        <h1>Productos Destacados</h1>
-        <ul class="list-body">
-          <li>Comederos</li>
-          <li>Accesorios</li>
-          <li>Comida</li>
-        </ul>
+        <div class="products">
+          <i class="huella" class="fa-light fa-paw"></i>
+          <h1>Productos Destacados</h1>
+          <ul class="list-body">
+            <li>Comederos</li>
+            <li>Accesorios</li>
+            <li>Comida</li>
+          </ul>
+        </div>
       </section>
-      <section class="list-images">
-        <article class="container-products">
-          <img src="img/churrasquito.png" alt="Juguete Churrasquito" />
-          <h3>Juguete Churrasquito</h3>
-          <p>$150</p>
-        </article>
-        <article class="container-products">
-          <img src="img/comedero.png" alt="comedero" />
-          <h3>Comedero para perro</h3>
-          <p>$250</p>
-        </article>
-        <article class="container-products">
-          <img src="img/Huesito.png" alt="huesito" />
-          <h3>Juguete Huesito</h3>
-          <p>$650</p>
-        </article>
+      <section>
+        <div class="list-images">
+          <article class="container-products">
+            <img src="img/churrasquito.png" alt="Juguete Churrasquito" />
+            <h3>Juguete Churrasquito</h3>
+            <p>$150</p>
+          </article>
+          <article class="container-products">
+            <img src="img/comedero.png" alt="comedero" />
+            <h3>Comedero para perro</h3>
+            <p>$250</p>
+          </article>
+          <article class="container-products">
+            <img src="img/Huesito.png" alt="huesito" />
+            <h3>Juguete Huesito</h3>
+            <p>$650</p>
+          </article>
+        </div>
       </section>
       <section>
         <h2>Contáctanos</h2>
@@ -91,11 +102,16 @@
         </div>
       </section>
       <section>
-        <ul>
-          <li>Suscríbete para más novedades</li>
-          <li>Ingresá tu correo electrónico</li>
-          <li>Suscribirme</li>
-        </ul>
+        <div class="container-subscribe">
+          <div class="text-suscribe">
+            <img src="img/enviar-correo 1.png" alt="" />
+            <p>Suscríbete para más novedades</p>
+          </div>
+          <div class="input-button">
+            <input type="text" name="suscribe" id="text" />
+            <button>Suscribirme</button>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
