@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Petshop</title>
   </head>
@@ -14,18 +21,35 @@
         <div>
           <ul class="header-lista">
             <li>Español</li>
+            <li><i class="fa-solid fa-chevron-down"></i></li>
             <li>COP</li>
+            <li><i class="fa-solid fa-chevron-down"></i></li>
           </ul>
         </div>
       </section>
       <section class="header-container-bottom">
-        <div class="first-logo">
-          <p class="logo-base">
-            <img src="img/Cat.png" alt="gato" />
-            <span class="logo-first">Front</span>
-            Cat&Dog
-            <img src="img/Dog.png" alt="perro" />
-          </p>
+        <div class="mobile-header">
+          <div class="first-logo">
+            <p class="logo-base">
+              <img src="img/Cat.png" alt="gato" />
+              <span class="logo-first">Front</span>
+              Cat&Dog
+              <img src="img/Dog.png" alt="perro" />
+            </p>
+          </div>
+          <div class="respmenu">
+            <input type="checkbox" />
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+            <nav>
+              <ul>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Pets</a></li>
+                <li><a href="#">Noswotros</a></li>
+                <li><a href="#">Contactanos</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
         <div class="nav">
           <nav class="nav-links">
@@ -51,15 +75,19 @@
         </div>
       </section>
       <section class="container-image-footer">
-        <h2>¡Es un placer tenerte aquí!</h2>
-        <p>¡Comederos en descuento!</p>
-        <button>Comederos</button>
+        <div><h2>¡Es un placer tenerte aquí!</h2></div>
+        <div class="titles">
+          <div class="title">
+            <p>¡Comederos en descuento!</p>
+          </div>
+          <div class="title"><button>Comederos</button></div>
+        </div>
       </section>
     </header>
     <main>
       <section>
         <div class="products">
-          <i class="huella" class="fa-light fa-paw"></i>
+          <i class="fa-solid fa-paw"></i>
           <h1>Productos Destacados</h1>
           <ul class="list-body">
             <li>Comederos</li>
@@ -116,30 +144,46 @@
     </main>
     <footer>
       <section>
-        <article>
-          <img src="img/Icono.png" alt="ubicacion" />
-          <h4>Localidad</h4>
-          <p>Calle - provincia</p>
-        </article>
-        <article>
-          <img src="img/Icono (1).png" alt="telefono" />
-          <h4>Teléfono</h4>
-          <p>Número de teléfono</p>
-        </article>
-        <article>
-          <img src="img/Icono (2).png" alt="correo" />
-          <h4>Correo Electrónico</h4>
-          <p>Dirección de correo</p>
-        </article>
-        <p class="logo-footer">
-          <img src="img/Cat.png" alt="gato" />
-          <span class="logo-second">Front</span>
-          Cat&Dog
-          <img src="img/Dog.png" alt="perro" />
-        </p>
+        <div class="container-footer">
+          <div class="container-footer1">
+            <article>
+              <div class="mini-container-footer">
+                <img src="img/Icono (1).png" alt="ubicacion" />
+                <div>
+                  <h4>Localidad</h4>
+                  <p>Calle - provincia</p>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="mini-container-footer">
+                <img src="img/Icono.png" alt="telefono" />
+                <div>
+                  <h4>Número de teléfono</h4>
+                  <p>Número de teléfono</p>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="mini-container-footer">
+                <img src="img/Icono (2).png" alt="correo" />
+                <div>
+                  <h4>Correo Electrónico</h4>
+                  <p>Dirección de correo</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <p class="logo-footer">
+            <img src="img/Cat.png" alt="gato" />
+            <span class="logo-second">Front</span>
+            Cat&Dog
+            <img src="img/Dog.png" alt="perro" />
+          </p>
+        </div>
       </section>
       <hr />
-      <h4>Todos los derechos reservados Front End</h4>
+      <h4 class="last-footer">Todos los derechos reservados Front End</h4>
     </footer>
   </body>
 </html>
