@@ -45,7 +45,7 @@
               <ul>
                 <li><a href="#">Categorias</a></li>
                 <li><a href="#">Pets</a></li>
-                <li><a href="#">Noswotros</a></li>
+                <li><a href="#">Nosotros</a></li>
                 <li><a href="#">Contactanos</a></li>
               </ul>
             </nav>
@@ -55,26 +55,22 @@
           <nav class="nav-links">
             <ul>
               <li>
-                <img src="img/pawprint 1.png" alt="huella" />
                 <span>Categorías</span>
               </li>
               <li>
-                <img src="img/pawprint 1.png" alt="huella" />
                 <span>Pets</span>
               </li>
               <li>
-                <img src="img/pawprint 1.png" alt="huella" />
                 <span>Nosotros</span>
               </li>
               <li>
-                <img src="img/pawprint 1.png" alt="huella" />
                 <span>Contactanos</span>
               </li>
             </ul>
           </nav>
         </div>
       </section>
-      <section class="container-image-footer">
+      <section class="container-image-header">
         <div><h2>¡Es un placer tenerte aquí!</h2></div>
         <div class="titles">
           <div class="title">
@@ -115,20 +111,36 @@
           </article>
         </div>
       </section>
-      <section>
+      <form>
         <h2>Contáctanos</h2>
-        <input class="contact" type="text" placeholder="Nombre y Apellido" />
-        <input
-          class="contact"
-          type="text"
-          placeholder="Ingresá tu correo electrónico"
-        />
-        <input class="contact" type="text" placeholder="Teléfono" />
-        <div>
-          <button class="button-reset">Resetear</button
-          ><button class="button-send">Enviar</button>
+        <div class="formulario">
+          <input
+            class="contact"
+            name="nombre"
+            type="text"
+            placeholder="Nombre y Apellido"
+            required
+          />
+          <input
+            class="contact"
+            name="email"
+            type="email"
+            placeholder="Ingresá tu correo electrónico"
+            required
+          />
+          <input
+            class="contact"
+            type="tel"
+            placeholder="Teléfono"
+            name="telefono"
+            required
+          />
         </div>
-      </section>
+        <div class="buttons-form">
+          <button type="reset" class="button button-reset">Resetear</button
+          ><button type="submit" class="button button-send">Enviar</button>
+        </div>
+      </form>
       <section>
         <div class="container-subscribe">
           <div class="text-suscribe">
@@ -136,8 +148,13 @@
             <p>Suscríbete para más novedades</p>
           </div>
           <div class="input-button">
-            <input type="text" name="suscribe" id="text" />
-            <button>Suscribirme</button>
+            <input
+              type="email"
+              name="suscribe"
+              id="text"
+              placeholder="Ingresá tu correo electronico"
+            />
+            <button class="button">Suscribirme</button>
           </div>
         </div>
       </section>

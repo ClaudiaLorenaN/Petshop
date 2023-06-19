@@ -62,6 +62,10 @@ header{
     padding: 20px;
 }
 
+.nav .nav-links ul li::before{
+    content: url('../img/pawprint\ 1.png');
+}
+
 .logo-base {
     font-size: 20px;
     font-weight: 700;
@@ -84,22 +88,7 @@ section{
     display: block;
 }
 
-.container-image-footer{
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-    flex-wrap: wrap;
-    padding-right: 30px;
-    
-}
-.container-image-footer > p{
-    margin-top: 10px;
-    font-size: 16px;
-    line-height: 18.75px;
-    text-align: center;
-    margin-bottom: 10px;
-    
-}
+
 
 h1{
     font-weight: 700;
@@ -110,13 +99,43 @@ h1{
 }
 
 h2{
-    margin-top: 30px;
+    color: #3C2313;
+    margin-top: 25px;
     text-align: center;
-    font-weight: 400;
     font-size: 30px;
-    line-height: 35.16px;
+    line-height: 35px;
 }
-.container-image-footer h2{
+.container-image-header{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    margin-top: 90px;
+    
+}
+.container-image-header h2{
+    font-weight: 400;
+
+}
+.title{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.title p{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+    margin-bottom: 10px;
+    color:#3C2313;
+    
+}
+.container-image-header h2{
     background-color: white;
 }
 h3{
@@ -152,6 +171,7 @@ button{
     border-radius: 5px;
     align-self: center;
     color: white;
+    border: none;
 }
 
 .list-body > li{
@@ -168,6 +188,33 @@ button{
     display: flex;    
     justify-content: space-evenly;
 }
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form h2{
+    margin-top: 80px;
+    font-weight: 700;
+}
+
+.formulario input{
+    padding: 10px;
+    padding-left: 20px;
+    width: 340px;
+    margin-top: 10px;
+}
+.buttons-form{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-bottom: 80px;
+}
+.button-reset{
+    margin-right: 20px;
+}
+
 .container-subscribe{
     background-color:#F0A83E ;
     display: flex;
@@ -183,6 +230,10 @@ button{
     padding-left: 20px;
     padding-top: 10px;
 }
+
+/*.text-suscribe p::before{
+    content: url('../img/enviar-correo\ 1.png');
+}*/
 
 .input-button{
     padding: 20px;
@@ -212,8 +263,9 @@ button{
 
 }
 
-.button-send{
-    border-radius: 15px;
+.button{
+    border-radius: 40px;
+    
 
 }
 
@@ -320,11 +372,11 @@ font-size: 10px;
         align-items: flex-end;
     }
 
-    .container-image-footer p {
+    .container-image-header p {
         display: flex;
         align-self: flex-end;
     }
-    .container-image-footer button {
+    .container-image-header button {
         text-transform: uppercase;
         background-color: #F0A83E;
         width: 141px;
