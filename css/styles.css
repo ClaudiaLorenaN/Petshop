@@ -258,13 +258,12 @@ form h2{
 }
 
 .button-reset{
-    border-radius: 15px;
     background-color: #8A8787;
-
 }
 
 .button{
     border-radius: 40px;
+    text-transform: capitalize;
     
 
 }
